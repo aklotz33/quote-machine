@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#3E606F;
+}
+
+.container {
+  padding-top: 15px;
+  border: 1px solid #193441;
+  background: #91AA9D;
+  color: #FCFFF5;
+}
+
+.vertical-center {
+  min-height: 10vh;
+  margin: auto;
+  justify-content: center;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#tweet-quote {
+  background:#FCFFF5;
+  border: none;
+  border-radius: 0px;
+  color: #193441
+}
+
+#new-quote {
+  background: #193441;
+  color: #FCFFF5;
+  border: none;
+  border-radius: 0px;
+  font-weight: 300;
+
+}
